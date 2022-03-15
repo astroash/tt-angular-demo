@@ -1,0 +1,28 @@
+<div>
+
+
+    <app-child 
+        [message]="myName"
+        (submitEvent)="displayInput($event)"
+    ></app-child>
+
+    <main>
+        <app-card
+            title="One"
+            description="uno"
+        ></app-card>
+        <app-card
+            title="Two"
+            description="duo"
+        ></app-card>
+        <app-card
+            title="Three"
+            description="tres"
+        >
+        </app-card>
+    </main>
+
+    <p>the end</p>
+
+    <h2 [className]="'big-title'">Nonsense not grey</h2>
+</div>
