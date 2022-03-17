@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
 import { CardComponent } from './components/card/card.component';
+import { HomepageComponent } from './views/homepage/homepage.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParentComponent,
     ChildComponent,
-    CardComponent
+    CardComponent,
+    HomepageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
