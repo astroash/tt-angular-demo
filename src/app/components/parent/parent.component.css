@@ -1,5 +1,6 @@
 main {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: 1em 0;
 }
@@ -10,4 +11,10 @@ div {
 
 .big-title {
   color: gray;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    flex-direction: row;
+  }
 }
